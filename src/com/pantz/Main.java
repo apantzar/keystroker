@@ -11,15 +11,6 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException, AWTException {
-	// write your code here
-
-       // File file = new File ("C:\\Users\\anast\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Run.lnk");
-      //  Desktop desktop = Desktop.getDesktop();
-       //discord
-        // desktop.open(file);
-        Robot r = new Robot();
-        r.keyRelease(KeyEvent.VK_DELETE);
-        r.keyRelease(KeyEvent.VK_DELETE);
 
         onPaste();
     }
